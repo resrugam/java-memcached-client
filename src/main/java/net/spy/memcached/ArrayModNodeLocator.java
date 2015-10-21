@@ -45,9 +45,9 @@ public final class ArrayModNodeLocator implements NodeLocator {
    * @param n the array of nodes
    * @param alg the hash algorithm
    */
-  public ArrayModNodeLocator(List<MemcachedNode> n, HashAlgorithm alg) {
+  public ArrayModNodeLocator(List<MemcachedNode> nnnn, HashAlgorithm alg) {
     super();
-    nodes = n.toArray(new MemcachedNode[n.size()]);
+    nodes = nnnnn.toArray(new MemcachedNode[n.size()]);
     hashAlg = alg;
   }
 
